@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compitable" content="IE=edge">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main file link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- icons link -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <title>Villa</title>
+  </head>
+  <body>
+    <!-- Start top Header -->
+    <div class="top py-2 border-bottom">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="left-con d-flex">
+            <div class="mail border-end pe-4">
+              <i class="icon fa fa-envelope"></i>
+              <span class="d-inline-block ms-2">info@company.com</span>
+            </div>
+            <div class="mail ms-4">
+              <i class="icon fa fa-map"></i>
+              <span class="d-inline-block ms-2">Sunny Isles Beach, FL 33160</span>
+            </div>
+          </div>
+          <div class="icons d-flex gap-3">
+            <a href="#" class="d-flex justify-content-center align-items-center">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="d-flex justify-content-center align-items-center">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="d-flex justify-content-center align-items-center">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" class="d-flex justify-content-center align-items-center">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End top Header -->
+    <!-- Start Header -->
+    <header class="py-4 d-flex justify-content-center w-100 active">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a href="#">
+          <h1>
+            VILLA
+          </h1>
+        </a>
+        <ul class="d-md-flex align-items-center gap-md-3 gap-lg-5">
+          <li>
+            <a href="index.html">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#" class="active">
+              Properties
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Property Details
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Contact Us
+            </a>
+          </li>
+          <li>
+            <a href="#" id = "hov-icon" class="position-relative schedule">
+              <i class="fa fa-calendar position-absolute d-flex align-items-center justify-content-center"></i>
+              Schedule a visit
+            </a>
+          </li>
+        </ul>
+        <div class="iconMenu">
+          <span class="topHide d-block"></span>
+          <span class="hideBar d-block"></span>
+          <span class="d-block"></span>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Home -->
+    <section class="property-home text-center">
+      <div class="container">
+        <span class="d-block mb-5">HOME / PROPERTIES</span>
+        <h1 class="text-white">PROPERTIES</h1>
+      </div>
+    </section>
+    <!-- END Home -->
+    <!-- Start Properties -->
+    <section class="properties deal">
+      <div class="container">
+        <div class="d-flex justify-content-sm-center justify-content-lg-center gap-3 buttons w-100">
+          <a id = "show" class="deal-btns active" href="#">Show All</a>
+          <a id = "appartment" class="deal-btns" href="#">Appartment</a>
+          <a id = "villa" class="deal-btns" href="#">Villa House</a>
+          <a id = "house" class="deal-btns" href="#">Penthouse</a>
+        </div>
+        <div class="row mt-5">
+          <!-- Start Box -->
+          <div class="col-lg-4 my-3" data-type = "villa">
+            <div class="box rounded-3">
+              <img class="rounded-3 w-100" src="images/property-04.jpg" alt="">
+              <div class="d-flex justify-content-between my-3">
+                <span class="price-txt">Apartment</span>
+                <span class="price">$584.500</span>
+              </div>
+              <h3>18 New Street Miami, OR 97219</h3>
+              <div class="d-flex flex-wrap border-bottom pb-3">
+                <p class="me-3 my-1">Bedrooms: <span>4</span></p>
+                <p class="me-3 my-1">Bathrooms: <span>3</span></p>
+                <p class="my-1">Area: <span>125m<sup>2</sup></span></p>
+                <p class="me-3 my-1">Floor: <span>25th</span></p>
+                <p class="me-3 my-1">Bedrooms: <span>2 Cars</span></p>
+              </div>
+              <a href="#" class="pro-schedule text-center mx-auto mt-3">Schedule a visit</a>
+            </div>
+          </div>
+          <!-- End Box -->
+          <!-- Start Box -->
+          <div class="col-lg-4 my-3" data-type = "appartment">
+            <div class="box rounded-3">
+              <img class="rounded-3 w-100" src="images/property-01.jpg" alt="">
+              <div class="d-flex justify-content-between my-3">
+                <span class="price-txt">Luxury Villa</span>
+                <span class="price">$2.264.000</span>
+              </div>
+              <h3>18 New Street Miami, OR 97219</h3>
+              <div class="d-flex flex-wrap border-bottom pb-3">
+                <p class="me-3 my-1">Bedrooms: <span>8</span></p>
+                <p class="me-3 my-1">Bathrooms: <span>8</span></p>
+                <p class="my-1">Area: <span>545m<sup>2</sup></span></p>
+                <p class="me-3 my-1">Floor: <span>8</span></p>
+                <p class="me-3 my-1">Bedrooms: <span>8</span></p>
+              </div>
+              <a href="#" class="pro-schedule text-center mx-auto mt-3">Schedule a visit</a>
+            </div>
+          </div>
+          <!-- End Box -->
+          <!-- Start Box -->
+          <div class="col-lg-4 my-3" data-type = "villa">
+            <div class="box rounded-3">
+              <img class="rounded-3 w-100" src="images/property-04.jpg" alt="">
+              <div class="d-flex justify-content-between my-3">
+                <span class="price-txt">Apartment</span>
+                <span class="price">$584.500</span>
+              </div>
+              <h3>18 New Street Miami, OR 97219</h3>
+              <div class="d-flex flex-wrap border-bottom pb-3">
+                <p class="me-3 my-1">Bedrooms: <span>4</span></p>
+                <p class="me-3 my-1">Bathrooms: <span>3</span></p>
+                <p class="my-1">Area: <span>125m<sup>2</sup></span></p>
+                <p class="me-3 my-1">Floor: <span>25th</span></p>
+                <p class="me-3 my-1">Bedrooms: <span>2 Cars</span></p>
+              </div>
+              <a href="#" class="pro-schedule text-center mx-auto mt-3">Schedule a visit</a>
+            </div>
+          </div>
+          <!-- End Box -->
+          <!-- Start Box -->
+          <div class="col-lg-4 my-3" data-type = "house">
+            <div class="box rounded-3">
+              <img class="rounded-3 w-100" src="images/property-02.jpg" alt="">
+              <div class="d-flex justify-content-between my-3">
+                <span class="price-txt">Luxury Villa</span>
+                <span class="price">$1.180.000</span>
+              </div>
+              <h3>54 Mid Street Florida, OR 27001</h3>
+              <div class="d-flex flex-wrap border-bottom pb-3">
+                <p class="me-3 my-1">Bedrooms: <span>6</span></p>
+                <p class="me-3 my-1">Bathrooms: <span>5</span></p>
+                <p class="my-1">Area: <span>450m<sup>2</sup></span></p>
+                <p class="me-3 my-1">Floor: <span>3</span></p>
+                <p class="me-3 my-1">Bedrooms: <span>8 Spots</span></p>
+              </div>
+              <a href="#" class="pro-schedule text-center mx-auto mt-3">Schedule a visit</a>
+            </div>
+          </div>
+          <!-- End Box -->
+          <!-- Start Box -->
+          <div class="col-lg-4 my-3" data-type = "house">
+            <div class="box rounded-3">
+              <img class="rounded-3 w-100" src="images/property-02.jpg" alt="">
+              <div class="d-flex justify-content-between my-3">
+                <span class="price-txt">Luxury Villa</span>
+                <span class="price">$1.180.000</span>
+              </div>
+              <h3>54 Mid Street Florida, OR 27001</h3>
+              <div class="d-flex flex-wrap border-bottom pb-3">
+                <p class="me-3 my-1">Bedrooms: <span>6</span></p>
+                <p class="me-3 my-1">Bathrooms: <span>5</span></p>
+                <p class="my-1">Area: <span>450m<sup>2</sup></span></p>
+                <p class="me-3 my-1">Floor: <span>3</span></p>
+                <p class="me-3 my-1">Bedrooms: <span>8 Spots</span></p>
+              </div>
+              <a href="#" class="pro-schedule text-center mx-auto mt-3">Schedule a visit</a>
+            </div>
+          </div>
+          <!-- End Box -->
+          <!-- Start Box -->
+          <div class="col-lg-4 my-3" data-type = "appartment">
+            <div class="box rounded-3">
+              <img class="rounded-3 w-100" src="images/property-05.jpg" alt="">
+              <div class="d-flex justify-content-between my-3">
+                <span class="price-txt">Penthouse</span>
+                <span class="price">$925.600</span>
+              </div>
+              <h3>34 Beach Street Miami, OR 42680</h3>
+              <div class="d-flex flex-wrap border-bottom pb-3">
+                <p class="me-3 my-1">Bedrooms: <span>4</span></p>
+                <p class="me-3 my-1">Bathrooms: <span>4</span></p>
+                <p class="my-1">Area: <span>180m<sup>2</sup></span></p>
+                <p class="me-3 my-1">Floor: <span>38th</span></p>
+                <p class="me-3 my-1">Bedrooms: <span>2 Cars</span></p>
+              </div>
+              <a href="#" class="pro-schedule text-center mx-auto mt-3">Schedule a visit</a>
+            </div>
+          </div>
+          <!-- End Box -->
+          
+          <!-- Start Box -->
+          <div class="col-lg-4 my-3" data-type = "appartment">
+            <div class="box rounded-3">
+              <img class="rounded-3 w-100" src="images/property-03.jpg" alt="">
+              <div class="d-flex justify-content-between my-3">
+                <span class="price-txt">Luxury Villa</span>
+                <span class="price">$1.460.000</span>
+              </div>
+              <h3>26 Old Street Miami, OR 38540</h3>
+              <div class="d-flex flex-wrap border-bottom pb-3">
+                <p class="me-3 my-1">Bedrooms: <span>5</span></p>
+                <p class="me-3 my-1">Bathrooms: <span>4</span></p>
+                <p class="my-1">Area: <span>225m<sup>2</sup></span></p>
+                <p class="me-3 my-1">Floor: <span>3</span></p>
+                <p class="me-3 my-1">Bedrooms: <span>10 Spots</span></p>
+              </div>
+              <a href="#" class="pro-schedule text-center mx-auto mt-3">Schedule a visit</a>
+            </div>
+          </div>
+          <!-- End Box -->
+          <!-- Start Box -->
+          <div class="col-lg-4 my-3" data-type = "appartment">
+            <div class="box rounded-3">
+              <img class="rounded-3 w-100" src="images/property-06.jpg" alt="">
+              <div class="d-flex justify-content-between my-3">
+                <span class="price-txt">Modern Condo</span>
+                <span class="price">$450.000</span>
+              </div>
+              <h3>22 New Street Portland, OR 16540</h3>
+              <div class="d-flex flex-wrap border-bottom pb-3">
+                <p class="me-3 my-1">Bedrooms: <span>3</span></p>
+                <p class="me-3 my-1">Bathrooms: <span>2</span></p>
+                <p class="my-1">Area: <span>165m<sup>2</sup></span></p>
+                <p class="me-3 my-1">Floor: <span>26th</span></p>
+                <p class="me-3 my-1">Bedrooms: <span>3 Cars</span></p>
+              </div>
+              <a href="#" class="pro-schedule text-center mx-auto mt-3">Schedule a visit</a>
+            </div>
+          </div>
+          <!-- End Box -->
+          <!-- Start Box -->
+          <div class="col-lg-4 my-3" data-type = "house">
+            <div class="box rounded-3">
+              <img class="rounded-3 w-100" src="images/property-02.jpg" alt="">
+              <div class="d-flex justify-content-between my-3">
+                <span class="price-txt">Luxury Villa</span>
+                <span class="price">$1.180.000</span>
+              </div>
+              <h3>54 Mid Street Florida, OR 27001</h3>
+              <div class="d-flex flex-wrap border-bottom pb-3">
+                <p class="me-3 my-1">Bedrooms: <span>6</span></p>
+                <p class="me-3 my-1">Bathrooms: <span>5</span></p>
+                <p class="my-1">Area: <span>450m<sup>2</sup></span></p>
+                <p class="me-3 my-1">Floor: <span>3</span></p>
+                <p class="me-3 my-1">Bedrooms: <span>8 Spots</span></p>
+              </div>
+              <a href="#" class="pro-schedule text-center mx-auto mt-3">Schedule a visit</a>
+            </div>
+          </div>
+          <!-- End Box -->
+        </div>
+      </div>
+    </section>
+    <!-- End Properties -->
+  <script src="main.js"></script>
+  </body>
+</html>
